@@ -197,7 +197,7 @@ A platform to streamline tour management for administrators and provide customer
 ## Installation
 ### **Clone the Repository**
    ```bash
-   git clone https://github.com/muskangarg03/ToursProject-Telusko.git
+   git clone https://github.com/navinreddy20/tours_telusko.git
    cd tours-and-travels-backend
   ```
   
@@ -205,7 +205,7 @@ A platform to streamline tour management for administrators and provide customer
 
 ### 1. Open the Project in IntelliJ
 - Launch IntelliJ IDEA.
-- Click **File** > **Open** and select the `ToursProject-Telusko` folder.
+- Click **File** > **Open** and select the `tours_telusko` folder.
 - Import the Maven dependencies.
 - Used Versions:
     **JDK Version** : 21
@@ -272,7 +272,7 @@ A platform to streamline tour management for administrators and provide customer
       
   ```
   stripe.secret.key= your_secret-key
-  stripe.publishable.key= your-publishable-key
+  stripe.publishable.key= your_publishable-key
   ```
 
 ### 3. Run the Application
