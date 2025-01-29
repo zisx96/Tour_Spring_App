@@ -9,11 +9,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 @SpringBootApplication
-public class TeluskoToursProjectApplication {
+public class ToursProjectApplication {
 
 	public static void main(String[] args) {
 		clearLogFile("src/main/java/com/tours/Logging/app.log");
-		SpringApplication.run(TeluskoToursProjectApplication.class, args);
+		SpringApplication.run(ToursProjectApplication.class, args);
 		System.out.println("Hello....git ..");
 	}
 

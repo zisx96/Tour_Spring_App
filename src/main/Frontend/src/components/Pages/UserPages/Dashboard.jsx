@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { Header, Footer, Banner } from "../../Reusable/Banner";
 import { useDispatch } from "react-redux";
 import { userTours } from "../../../Redux/API/API";
-import whatsapp from "../../../assets/Images/whatsapp.png";
 import BookTour from "./BookTour";
 
 
@@ -105,13 +104,6 @@ const UserDashboard = () => {
 
   const handleCloseModal = () => {
     setSelectedTour(null);
-  };
-
-  const handleContactSupport = () => {
-    window.open(
-      "https://api.whatsapp.com/send?phone=919008963671&text=Hello, Welcome to tours chat support!",
-      "_blank"
-    );
   };
 
   const fetchAllTours = async () => {
@@ -372,19 +364,6 @@ const UserDashboard = () => {
             ))}
           </div>
         )}
-
-        <button
-          onClick={handleContactSupport}
-          className="fixed bottom-6 right-6 bg-[#25D366] text-white rounded-full w-16 h-16 shadow-2xl hover:bg-[#128C7E] transition-colors z-50 flex items-center justify-center"
-        >
-          <div className="relative">
-            <img
-              src={whatsapp}
-              alt="whatsapp"
-              className="transition transform hover:scale-105 hover:shadow-xl"
-            />
-          </div>
-        </button>
       </div>
       <Footer />
 
